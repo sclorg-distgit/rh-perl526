@@ -1,0 +1,115 @@
+# Perl bootstrap for rebuild of Perl and all related packages
+#%%perl_bootstrap 1
+
+# Enable SCL restrictions for optional tests
+%_without_mod_perl_enables_optional_test 1
+%_without_perl_enables_syslog_test 1
+%_without_perl_Archive_Tar_enables_optional_test 1
+%_without_perl_autodie_enables_optional_test 1
+%_without_perl_B_Debug_enables_optional_test 1
+%_without_perl_B_Hooks_EndOfScope_enables_extra_test 1
+%_without_perl_B_Hooks_EndOfScope_enables_optional_test 1
+%_without_perl_BSD_Resource_enables_optional_test 1
+%_without_perl_Class_Data_Inheritable_enables_optional_test 1
+%_without_perl_Class_Tiny_enables_optional_test 1
+%_without_perl_Compress_Bzip2_enables_optional_test 1
+%_without_perl_Compress_Raw_Bzip2_enables_optional_test 1
+%_without_perl_Compress_Raw_Zlib_enables_optional_test 1
+%_without_perl_constant_enables_optional_test 1
+%_without_perl_CPAN_enables_optional_test 1
+%_without_perl_CPAN_Meta_Check_enables_extra_test 1
+%_without_perl_CPAN_Meta_Requirements_enables_optional_test 1
+%_without_perl_CPAN_Meta_YAML_enables_extra_test 1
+%_without_perl_Data_OptList_enables_extra_test 1
+%_without_perl_Data_OptList_enables_optional_test 1
+%_without_perl_Data_Section_enables_extra_test 1
+%_without_perl_Date_ISO8601_enables_optional_test 1
+%_without_perl_DateTime_enables_optional_test 1
+%_without_perl_DateTime_TimeZone_enables_optional_test 1
+%_without_perl_DateTime_TimeZone_SystemV_enables_optional_test 1
+%_without_perl_DateTime_TimeZone_Tzfile_enables_optional_test 1
+%_without_perl_DB_File_enables_optional_test 1
+%_without_perl_DBI_enables_Clone 1
+%_without_perl_DBI_enables_coro 1
+%_without_perl_DBI_enables_MLDBM 1
+%_without_perl_DBI_enables_optional_test 1
+%_without_perl_DBI_enables_SQL_Statement 1
+%_without_perl_Devel_CallChecker_enables_optional_test 1
+%_without_perl_Devel_Hide_enables_optional_test 1
+%_without_perl_Devel_Size_enables_optional_test 1
+%_without_perl_Dist_CheckConflicts_enables_extra_test 1
+%_without_perl_DynaLoader_Functions_enables_optional_test 1
+%_without_perl_Eval_Closure_enables_optional_test 1
+%_without_perl_Exporter_enables_optional_test 1
+%_without_perl_ExtUtils_Install_enables_optional_test 1
+%_without_perl_Filter_enables_optional_test 1
+%_without_perl_IO_Compress_enables_optional_test 1
+%_without_perl_IO_Socket_IP_enables_optional_test 1
+%_without_perl_IPC_Cmd_enables_IPC_Run 1
+%_without_perl_IPC_System_Simple_enables_optional_test 1
+%_without_perl_IPC_SysV_enables_optional_test 1
+%_without_perl_libnet_enables_optional_test 1
+%_without_perl_libnet_enables_sasl 1
+%_without_perl_libnet_enables_ssl 1
+%_without_perl_Locale_Maketext_enables_optional_test 1
+%_without_perl_LWP_MediaTypes_enables_mailcap 1
+%_without_perl_Math_BigInt_enables_optional_test 1
+%_without_perl_Module_Build_enables_optional_test 1
+%_without_perl_Module_CoreList_enables_optional_test 1
+%_without_perl_Module_Implementation_enables_extra_test 1
+%_without_perl_Module_Implementation_enables_optional_test 1
+%_without_perl_Module_Pluggable_enables_optional_test 1
+%_without_perl_Module_Runtime_enables_optional_test 1
+%_without_perl_namespace_autoclean_enables_optional_test 1
+%_without_perl_namespace_clean_enables_optional_test 1
+%_without_perl_Package_Generator_enables_extra_test 1
+%_without_perl_Package_Stash_enables_extra_test 1
+%_without_perl_Package_Stash_enables_optional_test 1
+%_without_perl_Package_Stash_XS_enables_extra_test 1
+%_without_perl_Package_Stash_XS_enables_optional_test 1
+%_without_perl_Parallel_ForkManager_enables_optional_test 1
+%_without_perl_Params_Classify_enables_optional_test 1
+%_without_perl_Params_ValidationCompiler_enables_optional_test 1
+%_without_perl_Path_Tiny_enables_optional_test 1
+%_without_perl_Perl_OSType_enables_optional_test 1
+%_without_perl_Pod_Parser_enables_optional_test 1
+%_without_perl_Pod_Perldoc_enables_tk_test 1
+%_without_perl_Ref_Util_enables_optional_test 1
+%_without_perl_Ref_Util_XS_enables_optional_test 1
+%_without_perl_Software_License_enables_extra_test 1
+%_without_perl_Software_License_enables_optional_test 1
+%_without_perl_Specio_enables_optional_test 1
+%_without_perl_Sub_Exporter_enables_extra_test 1
+%_without_perl_Sub_Identify_enables_optional_test 1
+%_without_perl_Sub_Install_enables_optional_test 1
+%_without_perl_Sys_Syslog_enables_optional_test 1
+%_without_perl_Term_ANSIColor_enables_optional_test 1
+%_without_perl_Term_Table_enables_terminal 1
+%_without_perl_Term_Table_enables_unicode 1
+%_without_perl_Test_Fatal_enables_extra_test 1
+%_without_perl_Test_Fatal_enables_optional_test 1
+%_without_perl_Test_Harness_enables_optional_test 1
+%_without_perl_Test_MockModule_enables_optional_test 1
+%_without_perl_Test_Requires_enables_extra_test 1
+%_without_perl_Test_Warnings_enables_optional_test 1
+%_without_perl_Test2_Suite_enables_unicode 1
+%_without_perl_Tie_IxHash_enables_optional_test 1
+%_without_perl_Try_Tiny_enables_optional_test 1
+%_without_perl_Unicode_UTF8_enables_Module_Install_ReadmeFromPod 1
+%_without_perl_Unicode_UTF8_enables_optional_test 1
+%_without_perl_URI_enables_Business_ISBN 1
+%_without_perl_version_enables_optional_test 1
+%_without_perl_YAML_enables_test 1
+
+# scl_macro_prefix - use for updating macro name, %%scl contains dash which is
+# not allowed in macro name
+%scl_package_override() %{expand: \
+%global perl_small 1 \
+%global __perl LD_LIBRARY_PATH="@LIBDIR@${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}" %_scl_root/usr/bin/perl \
+%global __perl_requires /usr/lib/rpm/perl.req.@SCL@ \
+%global __perl_provides /usr/lib/rpm/perl.prov.@SCL@ \
+%global __perllib_requires /usr/lib/rpm/perl.req.@SCL@ \
+%global __perllib_provides /usr/lib/rpm/perl.prov.@SCL@ \
+%global perl_default_filter %{?@MACRO@perl_default_filter} \
+%global scl_macro_prefix @MACRO@ \
+}
